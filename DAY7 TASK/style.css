@@ -3,3 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #b83556;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app{
+    width: 90%;
+    margin: 3rem auto;
+    max-width: 22rem;
+    background: #faded2;
+    padding: 1rem;
+    border-radius: 25px;
+    display:grid 10px;
+
+}
+
+h2{
+    color: #845747;
+}
+.input-area{
+    display: flex;
+    gap: 5px;
+}
+
+input{
+    flex: 1;
+    padding: 5px;
+}
+
+#task-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display:grid;
+    gap: 5px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+button{
+    padding: 5px 7.5px;
+    cursor: pointer;
+}
